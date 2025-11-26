@@ -1,0 +1,56 @@
+body.coklat-bg {
+  background: #D2B48C; /* coklat muda */
+  color: #222; /* text hitam */
+}
+body.mode-berantakan {
+  background: #00ff00; /* hijau neon, kontras buruk */
+  color: #f00; /* merah */
+}
+header, section {
+  margin-bottom: 20px;
+}
+.masalah {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #A0522D;
+  border-radius: 8px;
+  color: #fff;
+}
+button {
+  margin: 10px 0;
+  padding: 8px 16px;
+}
+.hidden { display: none; }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.card {
+  flex: 1 1 100%;
+  box-sizing: border-box;
+  background: #8B4513;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+/* Mobile */
+@media (max-width: 600px) {
+  .card { flex-basis: 100%; }
+}
+/* Tablet */
+@media (min-width: 601px) and (max-width: 992px) {
+  .card { flex-basis: 48%; }
+}
+/* Desktop */
+@media (min-width: 993px) {
+  .card { flex-basis: 31%; }
+}
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informasi Pencemaran Lingkungan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="mode-rapi coklat-bg">
+  <!-- Identitas Saya -->
+  <header>
+    <h1>Nama: Muhammad Khasyi Athallah</h1>
+    <h2>NIM: 202431175</h2>
+  </header>
+  <!-- Penjelasan Umum -->
+  <section>
+    <p>Pencemaran lingkungan adalah masuk atau dimasukkannya makhluk hidup, zat, energi, dan/atau komponen lain ke dalam lingkungan oleh kegiatan manusia sehingga kualitas lingkungan turun sampai ke tingkat tertentu yang menyebabkan lingkungan menjadi kurang atau tidak dapat berfungsi lagi sesuai dengan peruntukannya, meliputi kontaminasi berbagai media seperti udara, air, dan tanah oleh bahan-bahan berbahaya (disebut polutan), yang dapat mengancam kesehatan makhluk hidup, merusak ekosistem alam, dan mengurangi sumber daya alam.</p>
+  </section>
+  <!-- 7 Judul Masalah -->
+  <section id="judul-masalah">
+    <div class="masalah" onclick="togglePenjelasan(this)">
+      <h3>Pencemaran Udara</h3>
+      <p class="penjelasan">Pencemaran Udara terjadi ketika substansi berbahaya, termasuk gas, partikel padat, dan cairan, dilepaskan ke atmosfer, mengubah komposisi udara dan berdampak buruk pada kesehatan manusia, hewan, dan lingkungan. Sumber utamanya meliputi emisi dari kendaraan bermotor, pabrik industri, pembakaran bahan bakar fosil, dan kebakaran hutan. Dampaknya bisa berupa masalah pernapasan, hujan asam, dan pemanasan global akibat peningkatan gas rumah kaca.</p>
+    </div>
+  <section id="judul-masalah">
+    <div class="masalah" onclick="togglePenjelasan(this)">
+      <h3>Pencemaran Air</h3>
+      <p class="penjelasan">Pencemaran Air adalah kontaminasi badan air seperti sungai, danau, lautan, dan air tanah, biasanya akibat aktivitas manusia, yang membuat air tidak aman untuk dikonsumsi atau merusak ekosistem air. Bahan pencemar yang umum termasuk limbah industri, limbah rumah tangga, pestisida dan pupuk dari pertanian, serta tumpahan minyak. Pencemaran ini mengancam keanekaragaman hayati air dan menjadi sumber penyakit bawaan air pada manusia.</p>
+    </div>
+  <section id="judul-masalah">
+    <div class="masalah" onclick="togglePenjelasan(this)">
+      <h3>Pencemaran Suara</h3>
+      <p class="penjelasan">Pencemaran Suara (atau kebisingan) adalah paparan suara yang berlebihan atau tidak menyenangkan yang dapat membahayakan kesehatan atau kenyamanan. Ini umumnya berasal dari lalu lintas jalan raya, pesawat terbang, kereta api, kegiatan industri, dan tempat konstruksi. Meskipun sering diabaikan, pencemaran suara dapat menyebabkan masalah kesehatan seperti gangguan tidur, stres, peningkatan tekanan darah, dan hilangnya pendengaran, serta mengganggu komunikasi dan perilaku hewan liar.</p>
+    </div>
+  <section id="judul-masalah">
+    <div class="masalah" onclick="togglePenjelasan(this)">
+      <h3>Pencemaran Cahaya</h3>
+      <p class="penjelasan">Pencemaran Cahaya adalah penerangan buatan yang berlebihan, tidak tepat arah, atau mengganggu, terutama di lingkungan malam hari. Ini sering disebabkan oleh penerangan jalan, gedung, papan reklame, dan area komersial yang dirancang buruk. Dampak utamanya adalah mengaburkan penglihatan bintang di langit malam, mengganggu siklus tidur-bangun (ritme sirkadian) pada manusia, dan merusak perilaku migrasi serta reproduksi satwa liar nokturnal, seperti burung dan serangga.</p>
+    </div>
+  <section id="judul-masalah">
+    <div class="masalah" onclick="togglePenjelasan(this)">
+      <h3>Pencemaran Radioaktif</h3>
+      <p class="penjelasan">Pencemaran Radioaktif adalah pelepasan materi radioaktif ke lingkungan yang menimbulkan bahaya karena emisi radiasi pengion. Sumbernya berasal dari kecelakaan pembangkit listrik tenaga nuklir, pengujian senjata nuklir, pembuangan limbah medis dan industri yang mengandung bahan radioaktif, serta penambangan uranium. Paparan radiasi ini dapat menyebabkan mutasi genetik, kanker, penyakit radiasi akut, dan dampak jangka panjang pada ekosistem.</p>
+    </div>
+  <section id="judul-masalah">
+    <div class="masalah" onclick="togglePenjelasan(this)">
+      <h3>Pencemaran Mikroplastik</h3>
+      <p class="penjelasan">Pencemaran Mikroplastik adalah kontaminasi lingkungan oleh fragmen plastik berukuran sangat kecil (biasanya kurang dari 5 milimeter). Mikroplastik berasal dari pemecahan sampah plastik yang lebih besar, serat sintetis dari pakaian, atau microbeads dalam produk perawatan pribadi, dan telah ditemukan di lautan, sungai, tanah, udara, dan bahkan di dalam tubuh organisme hidup. Pencemaran ini mengancam kehidupan laut karena termakan oleh hewan, dan menimbulkan kekhawatiran tentang potensi dampak kesehatan bagi manusia.</p>
+    </div>
+  <section id="judul-masalah">
+    <div class="masalah" onclick="togglePenjelasan(this)">
+      <h3>Pencemaran Tanah</h3>
+      <p class="penjelasan">Pencemaran Tanah atau kontaminasi tanah terjadi ketika bahan kimia berbahaya, seperti logam berat, pestisida, hidrokarbon, dan limbah padat, masuk ke dalam tanah dan mencemari permukaannya. Sumbernya meliputi pembuangan limbah yang tidak tepat, kebocoran tangki penyimpanan bawah tanah, praktik pertanian yang intensif, dan penambangan. Pencemaran ini mengurangi kesuburan tanah, mengancam rantai makanan melalui penyerapan kontaminan oleh tanaman, dan dapat mencemari air tanah.</p>
+    </div>  
+  </section>
+  <!-- Tombol Ubah Mode Tampilan -->
+  <button onclick="ubahMode()">Ubah Mode Tampilan</button>
+  <!-- Tombol Tampilkan Gambar -->
+  <button onclick="window.location.href='gambar.html'">Tampilkan Gambar</button>
+  <script src="main.js"></script>
+</body>
+</html>
